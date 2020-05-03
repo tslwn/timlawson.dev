@@ -1,12 +1,11 @@
 import React from 'react'
 
+import CentreLayout from '../components/CentreLayout'
 import Layout from '../components/Layout'
-import SEO from '../components/SEO'
 
 const NotFoundPage: React.FC = () => (
   <Layout>
-    <SEO title="404" />
-    <h1>404</h1>
+    <CentreLayout title="404" emoji="🤔" />
   </Layout>
 )
 

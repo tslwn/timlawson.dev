@@ -1,20 +1,23 @@
 /** @jsx jsx */
-import { Styled, jsx } from 'theme-ui'
+import { ThemeProvider, Styled, jsx } from 'theme-ui'
 import React from 'react'
 import 'normalize.css'
 
+import theme from '../gatsby-plugin-theme-ui'
+
 const Layout: React.FC = ({ children }) => {
   return (
-    <Styled.root>
-      <div
+    <ThemeProvider theme={theme}>
+      <Styled.root
         sx={{
-          fontFamily: `body`,
-          margin: `0 auto`,
+          display: `flex`,
+          flexDirection: `column`,
+          minHeight: `100vh`,
         }}
       >
-        <main>{children}</main>
-      </div>
-    </Styled.root>
+        {children}
+      </Styled.root>
+    </ThemeProvider>
   )
 }
 
