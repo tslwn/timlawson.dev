@@ -10,9 +10,6 @@ const Layout: React.FC = ({ children }) => {
         sx={{
           fontFamily: `body`,
           margin: `0 auto`,
-          maxWidth: 960,
-          padding: 3,
-          paddingTop: 0,
         }}
       >
         <main>{children}</main>

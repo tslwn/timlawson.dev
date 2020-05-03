@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import React from 'react'
-import { Styled, jsx } from 'theme-ui'
+import { Styled, jsx, Box, Flex } from 'theme-ui'
 
 import Layout from '../components/Layout'
 import SEO from '../components/SEO'
@@ -8,7 +8,21 @@ import SEO from '../components/SEO'
 const IndexPage: React.FC = () => (
   <Layout>
     <SEO title="Home" />
-    <Styled.h1>Gatsby starter</Styled.h1>
+    <Flex
+      sx={{
+        alignItems: `center`,
+        justifyContent: `center`,
+        minHeight: `100vh`,
+        textAlign: `center`,
+        width: `100%`,
+      }}
+    >
+      <Box>
+        <Styled.h1>⚠️</Styled.h1>
+        <Box marginY="2" />
+        <Styled.h1>Under construction</Styled.h1>
+      </Box>
+    </Flex>
   </Layout>
 )
 

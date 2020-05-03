@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby starter`,
-    description: `Minimal Gatsby starter with TypeScript, Theme UI, and webfonts`,
-    author: `@tslwn`,
+    title: `Tim Lawson`,
+    description: `Personal website`,
+    author: `Tim Lawson <hello@timlawson.dev>`,
   },
   plugins: [
     `gatsby-plugin-typescript`,
@@ -12,8 +12,8 @@ module.exports = {
         fonts: {
           google: [
             {
-              family: `Roboto`,
-              variants: [`400`],
+              family: `Inter`,
+              variants: [`400`, `700`],
             },
           ],
         },
