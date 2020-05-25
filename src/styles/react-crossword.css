@@ -185,7 +185,7 @@ main
   border: 0;
 }
 main .crossword__sticky-clue {
-  background: transparent;
+  background: #f9f9f9;
   border-bottom: 1px solid var(--gray-000);
 }
 main .printable-crossword__grid .crossword__grid-background {
