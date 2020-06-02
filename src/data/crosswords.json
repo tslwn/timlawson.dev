@@ -351,7 +351,7 @@
         "id": "1-down",
         "number": 1,
         "humanNumber": "1",
-        "clue": "I could be heading for east, or for west ... (4)",
+        "clue": "Heading for west ... (4)",
         "direction": "down",
         "length": 4,
         "group": ["1-down"],
