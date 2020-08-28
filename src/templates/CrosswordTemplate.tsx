@@ -29,7 +29,10 @@ const CrosswordTemplate: React.FC<CrosswordPageProps> = ({ data }) => {
   // deserialize JSON field
   const crossword = data?.crossword
   crossword?.entries?.forEach((entry?: MutableCrosswordEntries) => {
-    if (entry?.separatorLocations) {
+    if (
+      entry?.separatorLocations &&
+      typeof entry.separatorLocations === `string`
+    ) {
       entry.separatorLocations = JSON.parse(entry.separatorLocations)
     }
   })
