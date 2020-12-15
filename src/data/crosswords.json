@@ -683,13 +683,13 @@
       "name": "Moth",
       "webUrl": "https://www.timlawson.dev/crosswords/cryptic/3"
     },
-    "date": 1590274800000,
+    "date": 1608854400000,
     "entries": [
       {
         "id": "1-down",
         "number": 1,
         "humanNumber": "1",
-        "clue": "Outer Wessex's Tess adrift without 10 (8)",
+        "clue": "County Tess lost with 23 (8)",
         "direction": "down",
         "length": 8,
         "group": ["1-down"],
@@ -785,7 +785,7 @@
         "id": "9-across",
         "number": 9,
         "humanNumber": "9",
-        "clue": "Arab Revolt with new leaf (Cairo man) (8, 2, 6)",
+        "clue": "Arab Revolt with new leaf (Cairo man) (8,2,6)",
         "direction": "across",
         "length": 8,
         "group": ["9-across", "29-across"],
@@ -862,7 +862,7 @@
         "length": 10,
         "group": ["15-down"],
         "position": { "x": 9, "y": 5 },
-        "separatorLocations": "{}",
+        "separatorLocations": "{ \"-\": [4] }",
         "solution": "BELLRINGER"
       },
       {
@@ -893,7 +893,7 @@
         "id": "18-across",
         "number": 18,
         "humanNumber": "18",
-        "clue": "Lifeform or 10 informally (5)",
+        "clue": "Lifeform (10 informally) (5)",
         "direction": "across",
         "length": 5,
         "group": ["18-across"],
@@ -917,19 +917,19 @@
         "id": "20-down",
         "number": 20,
         "humanNumber": "20",
-        "clue": "Odd cause for drunkenness! (3, 5)",
+        "clue": "Odd cause for drunkenness! (3,5)",
         "direction": "down",
         "length": 8,
         "group": ["20-down"],
         "position": { "x": 13, "y": 7 },
-        "separatorLocations": "{ \",\": [4] }",
+        "separatorLocations": "{ \",\": [3] }",
         "solution": "RUMSAUCE"
       },
       {
         "id": "21-across",
         "number": 21,
         "humanNumber": "21",
-        "clue": "Herod crest flies where martyrs trialled (10)",
+        "clue": "Records the novel Casterbridge (10)",
         "direction": "across",
         "length": 10,
         "group": ["21-across"],
@@ -946,7 +946,7 @@
         "length": 6,
         "group": ["22-down"],
         "position": { "x": 1, "y": 9 },
-        "separatorLocations": "{ \"-\": [4] }",
+        "separatorLocations": "{ \"-\": [3] }",
         "solution": "ONEOFF"
       },
       {
@@ -970,7 +970,7 @@
         "length": 10,
         "group": ["24-across"],
         "position": { "x": 0, "y": 11 },
-        "separatorLocations": "{ \"-\": [3] }",
+        "separatorLocations": "{ \"-\": [2] }",
         "solution": "REELECTION"
       },
       {
@@ -1001,7 +1001,7 @@
         "id": "27-down",
         "number": 27,
         "humanNumber": "27",
-        "clue": "Islamic mosque and Muslim leaders (4)",
+        "clue": "I'm a mosque leader (4)",
         "direction": "down",
         "length": 4,
         "group": ["27-down"],
@@ -1030,7 +1030,7 @@
         "length": 8,
         "group": ["9-across", "29-across"],
         "position": { "x": 0, "y": 13 },
-        "separatorLocations": "{ \",\": [3] }",
+        "separatorLocations": "{ \",\": [2] }",
         "solution": "OFARABIA"
       },
       {
